@@ -1,0 +1,35 @@
+{
+    "name": "empaphy/common",
+    "description": "Common dependencies of all Empaphy packages.",
+    "type": "metapackage",
+    "keywords": ["Empaphy", "common"],
+    "homepage": "https://empaphy.org",
+    "readme": "README.md",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alwin Garside",
+            "email": "alwin@garsi.de",
+            "homepage": "https://yogarine.net",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/empaphy/common/issues",
+        "source": "https://github.com/empaphy/common",
+        "docs": "https://empaphy.org/",
+        "rss": "https://github.com/empaphy/common/releases.atom"
+    },
+    "require": {
+        "php": ">=8.1",
+        "empaphy/filharmonic": "^1",
+        "empaphy/polyphill": "^1",
+        "empaphy/usephul": "^1"
+    },
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    }
+}
